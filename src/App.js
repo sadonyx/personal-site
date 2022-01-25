@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/Home";
+import styled from "styled-components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Home />
+      <Credits>
+        <p>Built & Designed by Adnan Shihabi.</p>
+        <p>All rights reserved. ©</p>
+      </Credits>
+    </Container>
   );
 }
 
 export default App;
+
+const Container = styled.div`
+  background-color: rgb(31, 29, 54);
+  width: 100vw;
+  height: auto;
+
+  font-family: "Monaco", sans-serif;
+`;
+
+const Credits = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  bottom: 0px;
+  margin-top: 250px;
+  padding-bottom: 10px;
+
+  text-align: center;
+  line-height: 2em;
+  font-size: 10.5px;
+  opacity: 0.65;
+  color: whitesmoke;
+`;
