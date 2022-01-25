@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sadonyx/personal-site/static/css/main.e6f5907c.css",
+    "main.js": "/sadonyx/personal-site/static/js/main.2389017b.js",
+    "index.html": "/sadonyx/personal-site/index.html",
+    "main.e6f5907c.css.map": "/sadonyx/personal-site/static/css/main.e6f5907c.css.map",
+    "main.2389017b.js.map": "/sadonyx/personal-site/static/js/main.2389017b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6f5907c.css",
+    "static/js/main.2389017b.js"
+  ]
+}
