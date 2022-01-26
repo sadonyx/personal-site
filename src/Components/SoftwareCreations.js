@@ -91,7 +91,6 @@ const CreationsGrid = styled.div`
   }
   @media only screen and (max-width: 575px) {
     grid-template-columns: 85vw;
-    row-gap: 5px;
   }
 `;
 
@@ -105,7 +104,7 @@ const CreationsBox = styled.div`
   /* width: 400px; */
   height: 350px;
 
-  background-color: rgb(41, 39, 71);
+  background-color: rgb(29, 27, 51);
   color: rgb(255, 255, 255);
 
   @media only screen and (max-width: 950px) {
@@ -117,7 +116,7 @@ const CreationsBox = styled.div`
 
   :hover {
     top: -10px;
-    background-color: rgb(62, 59, 110);
+    background-color: rgb(38, 35, 69);
   }
 `;
 

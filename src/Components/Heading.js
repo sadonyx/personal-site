@@ -21,7 +21,7 @@ const Heading = () => {
           bg="transparent"
           variant="outline"
           leftIcon={<EmailIcon />}
-          colorScheme="purple"
+          colorScheme="teal"
           onClick={() => {
             window.open("mailto:ashihabi12321@gmail.com");
           }}

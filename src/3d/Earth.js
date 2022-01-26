@@ -1,6 +1,7 @@
 import { Suspense, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { useTexture, useGLTF } from "@react-three/drei";
+import { useTexture, useGLTF, useFBX, Stars } from "@react-three/drei";
+import useMouse from "../util/useMouse";
 
 function Earth() {
   const ref = useRef();
@@ -27,7 +28,7 @@ function Clouds() {
   const cloudsMap = useTexture(
     "https://raw.githubusercontent.com/MattLoftus/threejs-space-simulations/master/images/clouds_2.jpg"
   );
-  useFrame(() => (ref.current.rotation.y -= 0.00005));
+  useFrame(() => (ref.current.rotation.y -= 0.0001));
   return (
     <mesh ref={ref}>
       <sphereGeometry attach="geometry" args={[5.1, 50, 50]} />
@@ -42,6 +43,7 @@ function Clouds() {
 }
 
 const Model = () => {
+  // const { x, y } = useMouse();
   const r = 12.5;
   let theta = 5.35;
   let dTheta = (2 * Math.PI) / 10000;
@@ -51,11 +53,14 @@ const Model = () => {
     ref.current.position.x = r * Math.cos(theta);
     ref.current.position.z = r * Math.sin(theta);
     ref.current.rotation.y += -0.0006;
+    // ref.current.rotation.x = x;
+    // ref.current.rotation.y = y;
   });
   const gltf = useGLTF("/moon.gltf");
+  const fbx = useFBX("/MrSaturn.fbx");
   return (
-    <mesh ref={ref} scale={0.0007} rotation={[0, 5.7006, 0]}>
-      <primitive object={gltf.scene} dispose={null} />
+    <mesh ref={ref} scale={0.015} rotation={[0, 5.7006, 0]}>
+      <primitive object={fbx} dispose={null} />
     </mesh>
   );
 };
@@ -86,10 +91,11 @@ const Model = () => {
 
 const Three = () => {
   return (
-    <Canvas camera={{ position: [0, 0, 8.9], fov: 70 }}>
+    <Canvas camera={{ position: [0, 0, 10], fov: 70 }}>
       {/* <OrbitControls /> */}
       <ambientLight intensity={1} />
-      <spotLight position={[10, 15, 10]} angle={0.3} instensity={1} />
+      <spotLight position={[-10, 15, 10]} angle={0.3} instensity={0.5} />
+      <Stars radius={100} fade={true} />
       <Suspense fallback={null}>
         <Earth />
         <Clouds />

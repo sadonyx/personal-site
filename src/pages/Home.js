@@ -96,7 +96,7 @@ const Home = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="mailto:ashihabi12321@gmail.com?subject=Contacting you from your website"
+            href="mailto:adnan@ashihabi.me?subject=Contacting you from your website"
             role="button"
           >
             <EmailIcon />
@@ -134,6 +134,7 @@ const ThreeDiv = styled.div`
   margin-top: 10vh;
   margin-left: 0;
   margin-right: auto;
+  border-radius: 100px;
 `;
 
 const Navbar = styled.div`
@@ -147,7 +148,7 @@ const Navbar = styled.div`
   font-size: 12px;
   font-weight: 700;
   line-height: 1.5em;
-  color: rgb(50, 135, 121);
+  color: rgb(51, 143, 129);
 `;
 
 const LinkContainer = styled(Link)`
@@ -164,7 +165,7 @@ const IconContainer = styled.div`
   flex-direction: row;
   margin-left: auto;
   margin-right: 0;
-  color: rgb(50, 135, 121);
+  color: rgb(51, 143, 129);
 
   margin-top: 10px;
 `;
