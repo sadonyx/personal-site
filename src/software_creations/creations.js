@@ -25,4 +25,14 @@ export const creations = [
     github: "https://github.com/sadonyx/minimax-tictactoe",
     link: "https://wechat-sooty.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Galore",
+    description:
+      "Spotify reimagined social media app that resembles MySpace, but rather than focus on what people are up to, it is strictly oriented to allow users to share and display their favorite music.",
+    technologies:
+      "Next.js 12.0, NextAuth, Recoil Spotify API, Firebase v9, Styled-Components",
+    github: "PLACEHOLDER",
+    link: "PLACEHOLDER",
+  },
 ];
