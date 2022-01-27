@@ -23,7 +23,7 @@ const Heading = () => {
           leftIcon={<EmailIcon />}
           colorScheme="teal"
           onClick={() => {
-            window.open("mailto:ashihabi12321@gmail.com");
+            window.open("mailto:adnan@ashihabi.me");
           }}
         >
           Contact Me
