@@ -6,7 +6,7 @@ export const creations = [
       "This small project implements the minimax algorithm with customizable search depth to fetch the best move for the AI player in a simple game of Tic Tac Toe",
     technologies: "JavaScript, HTML, CSS",
     github: "https://github.com/sadonyx/minimax-tictactoe",
-    link: "",
+    link: "https://sadonyx.github.io/minimax-tictactoe/",
   },
   {
     id: 2,
@@ -31,8 +31,8 @@ export const creations = [
     description:
       "Spotify reimagined social media app that resembles MySpace, but rather than focus on what people are up to, it is strictly oriented to allow users to share and display their favorite music.",
     technologies:
-      "Next.js 12.0, NextAuth, Recoil Spotify API, Firebase v9, Styled-Components",
-    github: "PLACEHOLDER",
-    link: "PLACEHOLDER",
+      "Next.js 12.0, NextAuth, Recoil, Spotify API, Firebase v9, Styled-Components",
+    github: "https://github.com/sadonyx/galore",
+    link: "",
   },
 ];

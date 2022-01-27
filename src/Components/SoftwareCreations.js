@@ -34,6 +34,7 @@ function WorkExperience() {
                 <SmallIconsContainer>
                   <a
                     role="button"
+                    title="External link to GitHub page"
                     href={creation.github}
                     target="_blank"
                     rel="noreferrer noopener"
@@ -43,6 +44,7 @@ function WorkExperience() {
                   {creation.link.length ? (
                     <a
                       role="button"
+                      title="External link to project demo"
                       href={creation.link}
                       target="_blank"
                       rel="noreferrer noopener"
