@@ -15,7 +15,7 @@ export const creations = [
       "A WebApp that allows creatives to upload images and create text objects, and resize and reposition them across a canvas for their artistic vision. The app also can fetch a color palette for any image uploaded.",
     technologies: "ReactJS, ChakraUI, ContextAPI",
     github: "https://github.com/sadonyx/vision-board",
-    link: "https://vision-board.vercel.app/",
+    link: "https://sadonyx.github.io/vision-board/",
   },
   {
     id: 3,
