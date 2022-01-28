@@ -22,7 +22,7 @@ export const creations = [
     title: "WeChat - Chat App",
     description: "1-1 message app demo with live status updates.",
     technologies: "Next.js, Firebase v9, Material UI, Styled-Components",
-    github: "https://github.com/sadonyx/minimax-tictactoe",
+    github: "https://github.com/sadonyx/WeChat",
     link: "https://wechat-sooty.vercel.app/",
   },
   {
