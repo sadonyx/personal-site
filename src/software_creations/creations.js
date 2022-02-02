@@ -33,6 +33,6 @@ export const creations = [
     technologies:
       "Next.js 12.0, NextAuth, Recoil, Spotify API, Firebase v9, Styled-Components",
     github: "https://github.com/sadonyx/galore",
-    link: "",
+    link: "https://galore.vercel.app/login",
   },
 ];
