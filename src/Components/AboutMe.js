@@ -64,7 +64,10 @@ const AboutMe = () => {
           </TechGrid>
         </BottomRowLeft>
         <BottomRowRight>
-          <Avi src="../../public/about_me_avi.jpg" alt="Adnan Shihabi" />
+          <Avi
+            src="https://media-exp2.licdn.com/dms/image/C5603AQEPOdh8gBX7Bw/profile-displayphoto-shrink_800_800/0/1627374600213?e=1662595200&v=beta&t=BGUq9SSp9w-La5HjQE7mHJl5VE_0LMp2pHTbRVKAg4o"
+            alt="Adnan Shihabi"
+          />
         </BottomRowRight>
       </GridContainer>
     </ChakraProvider>

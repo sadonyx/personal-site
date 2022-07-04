@@ -50,6 +50,7 @@ export default ExperiencesInteractiveMenu;
 const Flexbox = styled.div`
   display: flex;
   flex-direction: row;
+  height: 300px;
   color: rgb(255, 255, 255);
   @media only screen and (max-width: 600px) {
     flex-direction: column;
