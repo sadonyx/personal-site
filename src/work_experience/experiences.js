@@ -1,5 +1,14 @@
 export const experiences = [
   {
+    title: "TekReach Solutions, Development and Administration",
+    dates: "FEB 2022 - PRESENT",
+    description: [
+      "Modernized website design for a more seamless user experience; integrated site with Google Tags to track user statistics for marketing purposes",
+      "Integrated additional front-end features to Firebase server diagnostic tool, pushed to Azure DevOps",
+      "Assisted in System Administrative tasks such as upkeeping and configuring reliable server operations",
+    ],
+  },
+  {
     title: "KOXY Student Radio, Technical Manager",
     dates: "JAN 2018 - MAY 2020",
     description: [

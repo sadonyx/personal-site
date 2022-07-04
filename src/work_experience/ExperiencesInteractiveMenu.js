@@ -10,18 +10,21 @@ function ExperiencesInteractiveMenu() {
   return (
     <Flexbox>
       <ItemList>
-        {["KOXY Radio", "Library Assistant", "Undergrad Research"].map(
-          (text, index) => (
-            <ListItem button key={index}>
-              <ListItemText
-                primary={text}
-                onClick={() => {
-                  setSelected(index);
-                }}
-              />
-            </ListItem>
-          )
-        )}
+        {[
+          "TekReach Solutions",
+          "KOXY Radio",
+          "Library Assistant",
+          "Undergrad Research",
+        ].map((text, index) => (
+          <ListItem button key={index}>
+            <ListItemText
+              primary={text}
+              onClick={() => {
+                setSelected(index);
+              }}
+            />
+          </ListItem>
+        ))}
       </ItemList>
       <Divider orientation="vertical" varient="middle" flexItem />
       <DisplayResume>
