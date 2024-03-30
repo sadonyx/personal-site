@@ -18,20 +18,29 @@ const AboutMe = () => {
       <GridContainer>
         <BottomRowLeft>
           <Paragraph>
-            I graduated Occidental College with a focus on Kinesiology and a
-            minor in Computer Science. Over the last 1.5 years, I started
+            After having graduated Occidental College with a focus on Kinesiology and 
+            Computer Science, I've diverged from my Pre-Medicine discipline to pursue 
+            my knack for invention in the realm of software. I began by
             self-learning the Python programming language, and later migrated
-            onto learning JavaScript, as I have a profound interest in Web
+            onto learning JavaScript, as I had a profound interest in Web
             Development.
           </Paragraph>
           <Paragraph>
-            I am into software development that calls for creativity and
-            passion. Other areas I am interested include frontend
-            development/design, human-computer interactions, and automation. I
-            eventually want to incorporate my knowledge of Kinesiology into my
-            programming endeavors. I also love to indulge in visual arts and
-            music. In my free time, I go on outings with friends, read books,
-            and take photos.
+            Since beginning my journey and exploring the many avenues in self-learning, 
+            I enrolled at LaunchSchool to receive a formal and rich education that covered 
+            the fundamental knowledge of software development -- this equipped me with a 
+            well-rounded skill set that enabled me to confidently build modern software applications.
+          </Paragraph>
+          <Paragraph>
+            As of recently, I've built my own curriculum utilizing MIT's OpenCourseWare, 
+            that in which I am rigorously studying advanced Math and CS topics. 
+            My goal with these courses is to supplement my knowledge and maintain 
+            adaptability and future-proof my candidacy in the competitive and ever-changing 
+            tech industry. Alongside developing my career, this knowledge will help me with 
+            taking up my interest in machine learning and automation.
+          </Paragraph>
+          <Paragraph>
+            ...
           </Paragraph>
           <Paragraph>
             Here are some technologies I have been working with:
@@ -39,19 +48,19 @@ const AboutMe = () => {
           <TechGrid>
             <div>
               <RightIcon />
-              JavaScript ES6+
+              JavaScript
             </div>
             <div>
               <RightIcon />
-              Ruby/Sinatra
+              TypeScript
             </div>
             <div>
               <RightIcon />
-              Node.js
+              Ruby
             </div>
             <div>
               <RightIcon />
-              Server-hosting
+              Sinatra & Rails
             </div>
             <div>
               <RightIcon />
@@ -60,6 +69,14 @@ const AboutMe = () => {
             <div>
               <RightIcon />
               Python/PyTorch
+            </div>
+            <div>
+              <RightIcon />
+              Node.js
+            </div>
+            <div>
+              <RightIcon />
+              Web-hosting
             </div>
           </TechGrid>
         </BottomRowLeft>

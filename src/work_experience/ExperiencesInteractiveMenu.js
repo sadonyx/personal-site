@@ -74,13 +74,14 @@ const WorkHeading = styled.h1`
   @media only screen and (max-width: 715px) {
     font-size: 14px;
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 515px) {
     width: 80vw;
+    font-size: 0.9em;
   }
 `;
 
 const WorkDate = styled.h4`
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 100;
   opacity: 0.6;
   margin-top: 1em;
@@ -93,8 +94,9 @@ const WorkDetails = styled.p`
   @media only screen and (max-width: 715px) {
     width: 400px;
   }
-  @media only screen and (max-width: 500px) {
-    width: 80vw;
+  @media only screen and (max-width: 515px) {
+    width: 70vw;
+    font-size: 0.8em;
   }
 `;
 
@@ -116,6 +118,14 @@ const ItemList = styled(List)`
   }
   @media only screen and (max-width: 715px) {
     width: 190px;
+  }
+  @media only screen and (max-width: 615px) {
+    width: 145px;
+    font-size: 0.8em;
+  }
+  @media only screen and (max-width: 515px) {
+    width: 109px;
+    font-size: 0.8em;
   }
 `;
 
