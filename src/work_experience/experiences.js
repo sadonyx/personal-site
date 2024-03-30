@@ -1,5 +1,14 @@
 export const experiences = [
   {
+    title: "LaunchSchool, Software Developer Mastery Program",
+    dates: "OCT 2022 - APR 2024",
+    description: [
+      "Comprehensively studied web development through mastering programming languages, best practices and OO design concepts - a full-stack approach that developed a well-rounded skill set to build modern web applications",
+      "Mastered languages: Semantic HTML/CSS, Ruby, JavaScript, Java, Python, SQL/Postgres",
+      "Mastered technologies: HTTP, REST-style web services, Git, Sinatra/Rails, ReactJS",
+    ],
+  },
+  {
     title: "TekReach Solutions, Development and Administration",
     dates: "FEB 2022 - PRESENT",
     description: [
@@ -15,14 +24,6 @@ export const experiences = [
       "Oversaw live-technical production for +400-person capacity musical events",
       "Allocated funding and maintained inventory for technical equipment",
       "Communicated with artist managers about necessary equipment, siting, and programming",
-    ],
-  },
-  {
-    title: "Occidental College Library Assistant",
-    dates: "AUG 2016 - APR 2020",
-    description: [
-      "Guided students towards requested academic resources to achieve academic successes",
-      "Collaborated with other library departments to make a variety of academic resources more available",
     ],
   },
   {

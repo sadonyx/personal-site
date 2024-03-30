@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { ChakraProvider, Heading } from "@chakra-ui/react";
+import { ChakraProvider, Heading, Divider } from "@chakra-ui/react";
 import {
   IoLogoGithub,
   IoExitOutline,
@@ -15,6 +15,7 @@ function WorkExperience() {
     <ChakraProvider>
       <TopRow>
         <Title>/ software creations</Title>
+        <DividerLine width="40%" align="center" colorScheme="black" />
       </TopRow>
       <CreationsGrid>
         {creations.map((creation) => {
@@ -86,12 +87,12 @@ const CreationsGrid = styled.div`
   grid-template-columns: 21vw 21vw 21vw;
   column-gap: 5px;
   row-gap: 5px;
-  @media only screen and (max-width: 950px) {
-    grid-template-rows: 20vh 20vh;
-    grid-template-columns: 42.5vw 42.5vw;
-    row-gap: 45px;
+  @media only screen and (max-width: 1250px) {
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 35vw 35vw;
+    row-gap: 1em;
   }
-  @media only screen and (max-width: 575px) {
+  @media only screen and (max-width: 625px) {
     grid-template-columns: 85vw;
   }
 `;
@@ -101,7 +102,7 @@ const CreationsBox = styled.div`
   flex-direction: column;
   position: relative;
   border-radius: 10px;
-  margin: 0.15em;
+  margin: 0.35em 0.15em;
 
   /* width: 400px; */
   height: 350px;
@@ -109,12 +110,12 @@ const CreationsBox = styled.div`
   background-color: rgb(29, 27, 51);
   color: rgb(255, 255, 255);
 
-  @media only screen and (max-width: 950px) {
+  /* @media only screen and (max-width: 1250px) {
     height: 300px;
   }
   @media only screen and (max-width: 575px) {
     height: 250px;
-  }
+  } */
 
   :hover {
     top: -10px;
@@ -185,4 +186,12 @@ const CreationsTech = styled.p`
   margin-bottom: 1.5em;
   opacity: 0.6;
   width: 90%;
+`;
+
+const DividerLine = styled(Divider)`
+  margin: auto 0 auto 0;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 `;

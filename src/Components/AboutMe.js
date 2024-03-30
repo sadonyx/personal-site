@@ -43,15 +43,7 @@ const AboutMe = () => {
             </div>
             <div>
               <RightIcon />
-              React.js
-            </div>
-            <div>
-              <RightIcon />
-              Next.js
-            </div>
-            <div>
-              <RightIcon />
-              Firebase v9
+              Ruby/Sinatra
             </div>
             <div>
               <RightIcon />
@@ -59,13 +51,21 @@ const AboutMe = () => {
             </div>
             <div>
               <RightIcon />
-              HTML + CSS
+              Server-hosting
+            </div>
+            <div>
+              <RightIcon />
+              Java
+            </div>
+            <div>
+              <RightIcon />
+              Python/PyTorch
             </div>
           </TechGrid>
         </BottomRowLeft>
         <BottomRowRight>
           <Avi
-            src="https://media-exp2.licdn.com/dms/image/C5603AQEPOdh8gBX7Bw/profile-displayphoto-shrink_800_800/0/1627374600213?e=1662595200&v=beta&t=BGUq9SSp9w-La5HjQE7mHJl5VE_0LMp2pHTbRVKAg4o"
+            src="https://github.com/sadonyx/personal-site/blob/master/public/about_me_avi.jpg?raw=true"
             alt="Adnan Shihabi"
           />
         </BottomRowRight>

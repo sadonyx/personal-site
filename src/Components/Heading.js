@@ -9,13 +9,12 @@ const Heading = () => {
   return (
     <ChakraProvider>
       <Container>
-        {/* <PlaceholderTop /> */}
         <TypeAnim cursor={true} sequence={["hello, adnan here"]} wrapper="h1" />
         <BioBody>
-          I am an aspiring and self-taught software engineer based in Los
-          Angeles. I have a profound interest in full-stack web-development and
+          I am a software engineer based in Los
+          Angeles with a profound interest in full-stack software development and
           design, human-computer interactions and pretty much everything in the
-          realm of IT!
+          realm of IT! Please feel free to explore more about me and my work!
         </BioBody>
         <EmailMe
           bg="transparent"
@@ -36,13 +35,8 @@ const Heading = () => {
 
 export default Heading;
 
-// const PlaceholderTop = styled.div`
-//   height: 45vh;
-//   width: auto;
-// `;
-
 const PlaceholderBot = styled.div`
-  height: 15vh;
+  height: 5vh;
   width: auto;
 `;
 
@@ -53,6 +47,7 @@ font-size:3.25em;
 `;
 
 const Container = styled(Box)`
+  padding: 2em 0;
   @media only screen and (max-width: 600px) {
     text-align: center;
     align-items: center;

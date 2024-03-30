@@ -10,29 +10,28 @@ export const creations = [
   },
   {
     id: 2,
-    title: "Vision Board",
-    description:
-      "A WebApp that allows creatives to upload images and create text objects, and resize and reposition them across a canvas for their artistic vision. The app also can fetch a color palette for any image uploaded.",
-    technologies: "ReactJS, ChakraUI, ContextAPI",
-    github: "https://github.com/sadonyx/vision-board",
-    link: "https://sadonyx.github.io/vision-board/",
+    title: "She Loves Me",
+    description: 'A cute remake/reimagination of the "She loves me, she loves me not" mini-game from "Super Mario 64 DS"; this game has a special place in my heart.',
+    technologies: "Ruby, JavaScript, p5.js, Self-hosted",
+    github: "https://github.com/sadonyx/shelovesme",
+    link: "https://valentines.ashihabi.me/",
   },
   {
     id: 3,
-    title: "WeChat - Chat App",
-    description: "1-1 message app demo with live status updates.",
-    technologies: "Next.js, Firebase v9, Material UI, Styled-Components",
-    github: "https://github.com/sadonyx/WeChat",
-    link: "https://wechat-sooty.vercel.app/",
+    title: "Azeema",
+    description: "Full-Stack application that allows users to create, share, and interact with virtual event invites.",
+    technologies: "Sinatra, JavaScript, Self-hosted",
+    github: "https://github.com/sadonyx/azeema",
+    link: "https://azeema.ashihabi.me/",
   },
-  {
-    id: 4,
-    title: "Galore",
-    description:
-      "Spotify reimagined social media app that resembles MySpace, but rather than focus on what people are up to, it is strictly oriented to allow users to share and display their favorite music.",
-    technologies:
-      "Next.js 12.0, NextAuth, Recoil, Spotify API, Firebase v9, Styled-Components",
-    github: "https://github.com/sadonyx/galore",
-    link: "https://galore.vercel.app/login",
-  },
+  // {
+  //   id: 4,
+  //   title: "Galore",
+  //   description:
+  //     "Spotify reimagined social media app that resembles MySpace, but rather than focus on what people are up to, it is strictly oriented to allow users to share and display their favorite music.",
+  //   technologies:
+  //     "Next.js 12.0, NextAuth, Recoil, Spotify API, Firebase v9, Styled-Components",
+  //   github: "https://github.com/sadonyx/galore",
+  //   link: "https://galore.vercel.app/login",
+  // },
 ];

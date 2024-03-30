@@ -88,7 +88,7 @@ const Home = () => {
             <GitHubIcon src="https://img.icons8.com/material-outlined/24/ffffff/github.png" />
           </a>
           <a
-            href="https://www.linkedin.com/in/adnan-shihabi-2929b2140/"
+            href="https://www.linkedin.com/in/adnanshihabi/"
             target="_blank"
             rel="noreferrer noopener"
             role="button"
@@ -118,6 +118,8 @@ const Container = styled.div`
   margin: auto;
   background-color: transparent;
   color: rgb(224, 224, 224);
+
+  overflow: hidden;
 
   @media only screen and (max-width: 600px) {
     width: 85vw;
